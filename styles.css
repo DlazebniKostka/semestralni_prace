@@ -1,1 +1,110 @@
+*{	
+	font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+body{
+	margin: 0px;
+	width: 100vw;
+}
+
+h1{
+	position: sticky;
+	top: 0;
+	background: #ff9f1f;
+    text-align: center;
+    padding: 2vw;
+    font-size: 3vw;
+	margin: 0px
+}
+
+p{
+	color: #000000;
+}
+
+img{
+	width: 50vw;
+	height: auto;
+}
+
+div{
+	display: flex;
+}
+
+#butt_objednat{
+	background: #b7731d;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+	font-size: 1.5vw;
+    text-align: center;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+#butt_objednat:hover{
+	background: #744913;
+}
+
+#obal{
+	display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.butt_index{
+	background: #ff9f1f;
+    text-align: center;
+    padding: 2vw;
+    font-size: 1.5vw;
+	margin-top: 0px;
+	width: 50vw;
+}
+
+.butt_index:hover{
+	background: #c57913;
+}
+
+.butt_zpet{
+	background: #ff9f1f;
+    text-align: center;
+    padding: 2vw;
+    font-size: 1.5vw;
+	margin-top: 0px;
+}
+
+.butt_zpet:hover{
+	background: #c57913;
+}
+
+#butt_index_vedle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#poloha_onas{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#p_onas{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3vw;
+    flex-wrap: nowrap;
+}
+
+#p_onas p{
+	font-size: 2vw;
+}
